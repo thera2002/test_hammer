@@ -1,0 +1,27 @@
+#theLawn {
+    position: relative;   /* doesn't do anything */
+    width: 600px;
+    height: 400px;
+    background-color: greenyellow;
+    border: darkgreen solid 10px;
+    left: 100px;
+    top: 100px;
+}
+
+#theCat1 {
+    position: absolute;
+    width: 50px;
+    left: 0px;
+    top: 0px;
+    pointer-events: none;
+    /* transition: all 1.2s; */
+}
+
+#theCat2 {
+    position: absolute;
+    width: 50px;
+    right: 0px;
+    top: 0px;
+    pointer-events: none;
+    /* transition: all 1.2s; */
+}
